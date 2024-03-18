@@ -1,0 +1,1028 @@
+{
+    "uid": "571d4d39-7348-414a-9ae8-6c6568cb21ea",
+    "name": "1_Linear_KMeansFeatures_BoostOnErrors",
+    "preprocessing": [
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "ph": 7.076062725165778,
+                        "Sulfate": 333.0524906534692,
+                        "Trihalomethanes": 66.89983266705296
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Cluster"
+                ],
+                "result_file": "1_Linear_KMeansFeatures_BoostOnErrors/kmeans_fold_0.joblib",
+                "input_columns": [
+                    "ph",
+                    "Hardness",
+                    "Solids",
+                    "Chloramines",
+                    "Sulfate",
+                    "Conductivity",
+                    "Organic_carbon",
+                    "Trihalomethanes",
+                    "Turbidity"
+                ]
+            },
+            "scale": [
+                {
+                    "scale": [
+                        1.486371377202657,
+                        33.1687706231959,
+                        8815.610878403546,
+                        1.577502339424276,
+                        36.23550689279099,
+                        80.74728444629692,
+                        3.280415701178623,
+                        15.563383369114149,
+                        0.7822132257363701,
+                        0.8965430217680405,
+                        0.8549091981662112,
+                        0.8642513283069475,
+                        0.8786368419652715,
+                        0.8584980645525484,
+                        0.8606398114673511,
+                        0.8995644165716571,
+                        0.8966053583885619,
+                        0.8801142461225185,
+                        2.560621540922192
+                    ],
+                    "mean": [
+                        7.091938206539625,
+                        196.92340479833882,
+                        22055.601914326726,
+                        7.146578947062895,
+                        333.60158696061956,
+                        427.0849911498266,
+                        14.226328799589572,
+                        66.53755521987843,
+                        3.9636109355359297,
+                        3.3270930490783295,
+                        3.393672476520378,
+                        3.266447349691674,
+                        3.2686355727542207,
+                        3.3309769076427065,
+                        3.22972258157605,
+                        3.2862570168612364,
+                        3.2805601674823515,
+                        3.2697135863679154,
+                        4.168320610687023
+                    ],
+                    "var": [
+                        2.2092998709673233,
+                        1100.1673446541834,
+                        77714995.15942694,
+                        2.488513630889064,
+                        1313.0119597775033,
+                        6520.123945451183,
+                        10.761127172539236,
+                        242.21890189401887,
+                        0.6118575305168974,
+                        0.8037893898809692,
+                        0.7308697371091942,
+                        0.7469303584803231,
+                        0.7720027000587055,
+                        0.7370189268404717,
+                        0.7407008850825577,
+                        0.8092161395619057,
+                        0.8039011686910816,
+                        0.7746010862278092,
+                        6.556782675834742
+                    ],
+                    "n_samples_seen": 2620,
+                    "n_features_in": 19,
+                    "columns": [
+                        "ph",
+                        "Hardness",
+                        "Solids",
+                        "Chloramines",
+                        "Sulfate",
+                        "Conductivity",
+                        "Organic_carbon",
+                        "Trihalomethanes",
+                        "Turbidity",
+                        "Dist_Cluster_0",
+                        "Dist_Cluster_1",
+                        "Dist_Cluster_2",
+                        "Dist_Cluster_3",
+                        "Dist_Cluster_4",
+                        "Dist_Cluster_5",
+                        "Dist_Cluster_6",
+                        "Dist_Cluster_7",
+                        "Dist_Cluster_8",
+                        "Cluster"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "ph": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Hardness": [
+                        "scale_normal"
+                    ],
+                    "Solids": [
+                        "scale_normal"
+                    ],
+                    "Chloramines": [
+                        "scale_normal"
+                    ],
+                    "Sulfate": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Conductivity": [
+                        "scale_normal"
+                    ],
+                    "Organic_carbon": [
+                        "scale_normal"
+                    ],
+                    "Trihalomethanes": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Turbidity": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_1"
+                }
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "ph": 7.021617480943761,
+                        "Sulfate": 332.7590286287097,
+                        "Trihalomethanes": 66.7150114845287
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Cluster"
+                ],
+                "result_file": "1_Linear_KMeansFeatures_BoostOnErrors/kmeans_fold_1.joblib",
+                "input_columns": [
+                    "ph",
+                    "Hardness",
+                    "Solids",
+                    "Chloramines",
+                    "Sulfate",
+                    "Conductivity",
+                    "Organic_carbon",
+                    "Trihalomethanes",
+                    "Turbidity"
+                ]
+            },
+            "scale": [
+                {
+                    "scale": [
+                        1.4548739802622481,
+                        32.78610864097937,
+                        8767.007579405537,
+                        1.5743582616060336,
+                        35.6183589254294,
+                        80.94284173882866,
+                        3.312558072140468,
+                        15.898273676469653,
+                        0.7744224420075363,
+                        0.8863265195709236,
+                        0.8838085513493726,
+                        0.8726006138659116,
+                        0.871095232509246,
+                        0.8741759917827535,
+                        0.8811870464501906,
+                        0.8481580210273919,
+                        0.8636363764124603,
+                        0.8785115108201789,
+                        2.581197488658541
+                    ],
+                    "mean": [
+                        7.058539935837994,
+                        196.8094728333649,
+                        22138.236324796726,
+                        7.104924374429709,
+                        333.5510379309577,
+                        426.57069105479883,
+                        14.281986152199083,
+                        66.52397652278783,
+                        3.963483915980138,
+                        3.344144985414167,
+                        3.2518714798075274,
+                        3.458027078712632,
+                        3.230103105063199,
+                        3.225720221924416,
+                        3.563373537474683,
+                        3.26438927141218,
+                        3.1873514513047057,
+                        3.2988267631444352,
+                        4.1846623426173215
+                    ],
+                    "var": [
+                        2.1166582984441162,
+                        1074.928919818102,
+                        76860421.89735413,
+                        2.4786039358871723,
+                        1268.6674925407162,
+                        6551.743628757063,
+                        10.973040981302972,
+                        252.75510589192788,
+                        0.5997301186849159,
+                        0.7855746992947068,
+                        0.7811175554382767,
+                        0.7614318313191657,
+                        0.7588069041003374,
+                        0.7641836646093608,
+                        0.7764906108316104,
+                        0.7193720286331018,
+                        0.7458677906628448,
+                        0.7717824746435533,
+                        6.66258047545716
+                    ],
+                    "n_samples_seen": 2621,
+                    "n_features_in": 19,
+                    "columns": [
+                        "ph",
+                        "Hardness",
+                        "Solids",
+                        "Chloramines",
+                        "Sulfate",
+                        "Conductivity",
+                        "Organic_carbon",
+                        "Trihalomethanes",
+                        "Turbidity",
+                        "Dist_Cluster_0",
+                        "Dist_Cluster_1",
+                        "Dist_Cluster_2",
+                        "Dist_Cluster_3",
+                        "Dist_Cluster_4",
+                        "Dist_Cluster_5",
+                        "Dist_Cluster_6",
+                        "Dist_Cluster_7",
+                        "Dist_Cluster_8",
+                        "Cluster"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "ph": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Hardness": [
+                        "scale_normal"
+                    ],
+                    "Solids": [
+                        "scale_normal"
+                    ],
+                    "Chloramines": [
+                        "scale_normal"
+                    ],
+                    "Sulfate": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Conductivity": [
+                        "scale_normal"
+                    ],
+                    "Organic_carbon": [
+                        "scale_normal"
+                    ],
+                    "Trihalomethanes": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Turbidity": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_1"
+                }
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "ph": 7.025663052871384,
+                        "Sulfate": 332.7590286287097,
+                        "Trihalomethanes": 66.66396419266069
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Cluster"
+                ],
+                "result_file": "1_Linear_KMeansFeatures_BoostOnErrors/kmeans_fold_2.joblib",
+                "input_columns": [
+                    "ph",
+                    "Hardness",
+                    "Solids",
+                    "Chloramines",
+                    "Sulfate",
+                    "Conductivity",
+                    "Organic_carbon",
+                    "Trihalomethanes",
+                    "Turbidity"
+                ]
+            },
+            "scale": [
+                {
+                    "scale": [
+                        1.4452338348356122,
+                        32.66566159957062,
+                        8758.714369001384,
+                        1.5944982976097895,
+                        36.08070043624795,
+                        80.53810565321787,
+                        3.3185921699612524,
+                        15.7955939395038,
+                        0.7875343172950289,
+                        0.8965520187119342,
+                        0.8638106878516353,
+                        0.8571450063045176,
+                        0.8747083210612833,
+                        0.8715943571237458,
+                        0.876572765019638,
+                        0.8822261697390911,
+                        0.8771775523098685,
+                        0.892021751693656,
+                        2.7213417854170228
+                    ],
+                    "mean": [
+                        7.076392501562097,
+                        195.7611247439333,
+                        21976.053878307506,
+                        7.130824779492627,
+                        333.354609355435,
+                        425.8010595998893,
+                        14.269981806902416,
+                        66.56036447340959,
+                        3.9632155188546347,
+                        3.1990689059983564,
+                        3.4152649911906408,
+                        3.25276965353299,
+                        3.3815756738058464,
+                        3.4418714450796277,
+                        3.433127020087762,
+                        3.1949841859271917,
+                        3.252244025839804,
+                        3.1851651781390617,
+                        4.153376573826784
+                    ],
+                    "var": [
+                        2.0887008373536498,
+                        1067.0454477376627,
+                        76715077.3977513,
+                        2.542424821080517,
+                        1301.8169439702633,
+                        6486.386462208883,
+                        11.013053990528135,
+                        249.50078790168916,
+                        0.6202103009173472,
+                        0.8038055222564444,
+                        0.7461689044467152,
+                        0.7346975618327716,
+                        0.765114646933849,
+                        0.7596767233699556,
+                        0.7683798123741734,
+                        0.7783230145725075,
+                        0.7694404582763321,
+                        0.7957028054946186,
+                        7.405701113056709
+                    ],
+                    "n_samples_seen": 2621,
+                    "n_features_in": 19,
+                    "columns": [
+                        "ph",
+                        "Hardness",
+                        "Solids",
+                        "Chloramines",
+                        "Sulfate",
+                        "Conductivity",
+                        "Organic_carbon",
+                        "Trihalomethanes",
+                        "Turbidity",
+                        "Dist_Cluster_0",
+                        "Dist_Cluster_1",
+                        "Dist_Cluster_2",
+                        "Dist_Cluster_3",
+                        "Dist_Cluster_4",
+                        "Dist_Cluster_5",
+                        "Dist_Cluster_6",
+                        "Dist_Cluster_7",
+                        "Dist_Cluster_8",
+                        "Cluster"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "ph": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Hardness": [
+                        "scale_normal"
+                    ],
+                    "Solids": [
+                        "scale_normal"
+                    ],
+                    "Chloramines": [
+                        "scale_normal"
+                    ],
+                    "Sulfate": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Conductivity": [
+                        "scale_normal"
+                    ],
+                    "Organic_carbon": [
+                        "scale_normal"
+                    ],
+                    "Trihalomethanes": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Turbidity": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_1"
+                }
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "ph": 7.040394956072289,
+                        "Sulfate": 333.24520851355203,
+                        "Trihalomethanes": 66.37193857050357
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Cluster"
+                ],
+                "result_file": "1_Linear_KMeansFeatures_BoostOnErrors/kmeans_fold_3.joblib",
+                "input_columns": [
+                    "ph",
+                    "Hardness",
+                    "Solids",
+                    "Chloramines",
+                    "Sulfate",
+                    "Conductivity",
+                    "Organic_carbon",
+                    "Trihalomethanes",
+                    "Turbidity"
+                ]
+            },
+            "scale": [
+                {
+                    "scale": [
+                        1.4869994914994322,
+                        33.125157480238435,
+                        8796.382758884565,
+                        1.5907911255348408,
+                        35.931615385339335,
+                        81.26468214612872,
+                        3.316163479756326,
+                        15.837330988496234,
+                        0.7787956961068953,
+                        0.9095079972611607,
+                        0.8610032661853851,
+                        0.8733980686325492,
+                        0.8724574296170191,
+                        0.8866913910326067,
+                        0.8534368781646268,
+                        0.900929998336002,
+                        0.8958896907884231,
+                        0.8895751948183331,
+                        2.60803393915641
+                    ],
+                    "mean": [
+                        7.078657603801276,
+                        196.27681259499496,
+                        21988.31225285723,
+                        7.120990917193686,
+                        333.7146933702624,
+                        426.2995146902477,
+                        14.323563078032738,
+                        66.27966913639156,
+                        3.970956447486471,
+                        3.3791116298411255,
+                        3.1510993050793403,
+                        3.2715753776286594,
+                        3.590201848866026,
+                        3.356075957695918,
+                        3.247964007352419,
+                        3.2479299594466973,
+                        3.310283713574246,
+                        3.1316219800302743,
+                        4.197634490652423
+                    ],
+                    "var": [
+                        2.21116748771957,
+                        1097.2760580905965,
+                        77376349.64080162,
+                        2.530616405080406,
+                        1291.0809841999544,
+                        6603.948564311332,
+                        10.996940224469585,
+                        250.8210528391831,
+                        0.6065227362746235,
+                        0.8272047970820076,
+                        0.7413266243819012,
+                        0.7628241862910671,
+                        0.7611819664939359,
+                        0.7862216229313391,
+                        0.728354505011384,
+                        0.8116748619017085,
+                        0.8026183380609763,
+                        0.7913440272360754,
+                        6.8018410277917
+                    ],
+                    "n_samples_seen": 2621,
+                    "n_features_in": 19,
+                    "columns": [
+                        "ph",
+                        "Hardness",
+                        "Solids",
+                        "Chloramines",
+                        "Sulfate",
+                        "Conductivity",
+                        "Organic_carbon",
+                        "Trihalomethanes",
+                        "Turbidity",
+                        "Dist_Cluster_0",
+                        "Dist_Cluster_1",
+                        "Dist_Cluster_2",
+                        "Dist_Cluster_3",
+                        "Dist_Cluster_4",
+                        "Dist_Cluster_5",
+                        "Dist_Cluster_6",
+                        "Dist_Cluster_7",
+                        "Dist_Cluster_8",
+                        "Cluster"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "ph": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Hardness": [
+                        "scale_normal"
+                    ],
+                    "Solids": [
+                        "scale_normal"
+                    ],
+                    "Chloramines": [
+                        "scale_normal"
+                    ],
+                    "Sulfate": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Conductivity": [
+                        "scale_normal"
+                    ],
+                    "Organic_carbon": [
+                        "scale_normal"
+                    ],
+                    "Trihalomethanes": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Turbidity": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_1"
+                }
+            }
+        },
+        {
+            "missing_values": [
+                {
+                    "fill_method": "na_fill_median",
+                    "fill_params": {
+                        "ph": 7.031761612177098,
+                        "Sulfate": 333.47759195071524,
+                        "Trihalomethanes": 66.24269937786539
+                    },
+                    "datetime_columns": []
+                }
+            ],
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Dist_Cluster_5",
+                    "Dist_Cluster_6",
+                    "Dist_Cluster_7",
+                    "Dist_Cluster_8",
+                    "Cluster"
+                ],
+                "result_file": "1_Linear_KMeansFeatures_BoostOnErrors/kmeans_fold_4.joblib",
+                "input_columns": [
+                    "ph",
+                    "Hardness",
+                    "Solids",
+                    "Chloramines",
+                    "Sulfate",
+                    "Conductivity",
+                    "Organic_carbon",
+                    "Trihalomethanes",
+                    "Turbidity"
+                ]
+            },
+            "scale": [
+                {
+                    "scale": [
+                        1.4749589180680376,
+                        32.60933309198544,
+                        8696.303207436724,
+                        1.5765882972826708,
+                        36.81464710533157,
+                        80.55131880340866,
+                        3.3094018556541824,
+                        15.73652267672774,
+                        0.778234445607273,
+                        0.8810465574555751,
+                        0.9184614749253923,
+                        0.8742273034327104,
+                        0.8475345264115397,
+                        0.8725787920235757,
+                        0.8958902152288215,
+                        0.8931188027497611,
+                        0.9045725036997446,
+                        0.8814190658624682,
+                        2.573156608655932
+                    ],
+                    "mean": [
+                        7.0673496738605905,
+                        196.07687645077885,
+                        21912.274097330537,
+                        7.108074221042209,
+                        333.80079015015536,
+                        425.2696326221118,
+                        14.322969027970261,
+                        66.12313334109766,
+                        3.972662819639036,
+                        3.2924372240337685,
+                        3.282616758138613,
+                        3.1904213471284937,
+                        3.323436350361248,
+                        3.3023354390296658,
+                        3.249733984064846,
+                        3.2844375539516024,
+                        3.272532494317188,
+                        3.298739214920966,
+                        3.866081648225868
+                    ],
+                    "var": [
+                        2.175503809988436,
+                        1063.368604704057,
+                        75625689.47567424,
+                        2.485630659128671,
+                        1355.3182414900978,
+                        6488.514960968378,
+                        10.952140642207347,
+                        247.63814595516638,
+                        0.6056488523296595,
+                        0.77624303640432,
+                        0.8435714809221271,
+                        0.7642733780672282,
+                        0.7183147734596328,
+                        0.7613937482893225,
+                        0.8026192777427441,
+                        0.7976611958251666,
+                        0.8182514144496245,
+                        0.7768995696658662,
+                        6.6211349326696975
+                    ],
+                    "n_samples_seen": 2621,
+                    "n_features_in": 19,
+                    "columns": [
+                        "ph",
+                        "Hardness",
+                        "Solids",
+                        "Chloramines",
+                        "Sulfate",
+                        "Conductivity",
+                        "Organic_carbon",
+                        "Trihalomethanes",
+                        "Turbidity",
+                        "Dist_Cluster_0",
+                        "Dist_Cluster_1",
+                        "Dist_Cluster_2",
+                        "Dist_Cluster_3",
+                        "Dist_Cluster_4",
+                        "Dist_Cluster_5",
+                        "Dist_Cluster_6",
+                        "Dist_Cluster_7",
+                        "Dist_Cluster_8",
+                        "Cluster"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "ph": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Hardness": [
+                        "scale_normal"
+                    ],
+                    "Solids": [
+                        "scale_normal"
+                    ],
+                    "Chloramines": [
+                        "scale_normal"
+                    ],
+                    "Sulfate": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Conductivity": [
+                        "scale_normal"
+                    ],
+                    "Organic_carbon": [
+                        "scale_normal"
+                    ],
+                    "Trihalomethanes": [
+                        "na_fill_median",
+                        "scale_normal"
+                    ],
+                    "Turbidity": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "kmeans_features": {
+                    "results_path": "AutoML_1"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.4.1.post1",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "4f67ff32-a347-4ec1-b7e6-29dc9713a547",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.4.1.post1",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "c2d78909-dd1f-48cc-9a9e-8e2936d1213e",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.4.1.post1",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "2e90c8b4-014a-4c9c-be54-72b546b19399",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.4.1.post1",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "dc1faf66-0fe7-4c34-8a14-fec7c2400dfe",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.4.1.post1",
+            "algorithm_name": "Logistic Regression",
+            "algorithm_short_name": "Linear",
+            "uid": "0950770a-d727-4451-bac0-a262b211915c",
+            "params": {
+                "model_type": "Linear",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1235,
+                "explain_level": 0
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_steps": 1,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "ph": [
+                    "na_fill_median",
+                    "scale_normal"
+                ],
+                "Hardness": [
+                    "scale_normal"
+                ],
+                "Solids": [
+                    "scale_normal"
+                ],
+                "Chloramines": [
+                    "scale_normal"
+                ],
+                "Sulfate": [
+                    "na_fill_median",
+                    "scale_normal"
+                ],
+                "Conductivity": [
+                    "scale_normal"
+                ],
+                "Organic_carbon": [
+                    "scale_normal"
+                ],
+                "Trihalomethanes": [
+                    "na_fill_median",
+                    "scale_normal"
+                ],
+                "Turbidity": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "kmeans_features": {
+                "results_path": "AutoML_1"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "random_seed": 123,
+            "X_path": "AutoML_1/X.data",
+            "y_path": "AutoML_1/y.data",
+            "results_path": "AutoML_1",
+            "sample_weight_path": "AutoML_1/1_Linear_KMeansFeatures_sample_weight.data"
+        },
+        "learner": {
+            "model_type": "Linear",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1235,
+            "explain_level": 0
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 0,
+        "name": "1_Linear_KMeansFeatures_BoostOnErrors",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "boost_on_error",
+        "max_time_for_learner": 60,
+        "injected_sample_weight": true
+    },
+    "saved": [
+        "1_Linear_KMeansFeatures_BoostOnErrors/learner_fold_0.linear",
+        "1_Linear_KMeansFeatures_BoostOnErrors/learner_fold_1.linear",
+        "1_Linear_KMeansFeatures_BoostOnErrors/learner_fold_2.linear",
+        "1_Linear_KMeansFeatures_BoostOnErrors/learner_fold_3.linear",
+        "1_Linear_KMeansFeatures_BoostOnErrors/learner_fold_4.linear"
+    ],
+    "predictions_fname": "1_Linear_KMeansFeatures_BoostOnErrors/predictions_out_of_folds.csv",
+    "metric_name": "accuracy",
+    "final_loss": "-0.6184371184371185",
+    "train_time": 2.4892101287841797,
+    "is_stacked": false,
+    "joblib_version": "1.3.2",
+    "threshold": 0.5088268756760562
+}

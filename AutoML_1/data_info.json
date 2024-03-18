@@ -1,0 +1,53 @@
+{
+    "columns": [
+        "ph",
+        "Hardness",
+        "Solids",
+        "Chloramines",
+        "Sulfate",
+        "Conductivity",
+        "Organic_carbon",
+        "Trihalomethanes",
+        "Turbidity"
+    ],
+    "rows": 3276,
+    "cols": 9,
+    "target_is_numeric": true,
+    "columns_info": {
+        "ph": [
+            "missing_values",
+            "scale"
+        ],
+        "Hardness": [
+            "scale"
+        ],
+        "Solids": [
+            "scale"
+        ],
+        "Chloramines": [
+            "scale"
+        ],
+        "Sulfate": [
+            "missing_values",
+            "scale"
+        ],
+        "Conductivity": [
+            "scale"
+        ],
+        "Organic_carbon": [
+            "scale"
+        ],
+        "Trihalomethanes": [
+            "missing_values",
+            "scale"
+        ],
+        "Turbidity": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 9,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false,
+    "n_classes": 2
+}

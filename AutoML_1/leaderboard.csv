@@ -1,0 +1,7 @@
+name,model_type,metric_type,metric_value,train_time
+1_Linear,Linear,accuracy,0.6108058608058609,3.35
+1_Linear_GoldenFeatures,Linear,accuracy,0.6086691086691086,4.38
+1_Linear_KMeansFeatures,Linear,accuracy,0.6172161172161172,3.26
+1_Linear_KMeansFeatures_RandomFeature,Linear,accuracy,0.6126373626373627,3.86
+1_Linear_KMeansFeatures_BoostOnErrors,Linear,accuracy,0.6184371184371185,3.09
+Ensemble,Ensemble,accuracy,0.6184371184371185,1.03
