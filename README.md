@@ -18,7 +18,6 @@
 This is a Web Application designed to train Machine Learning pipelines using MLJAR AutoML, specifically tailored for tabular data. All the generated models are compressed into an archive format, allowing their reuse to compute predictions in batch mode.
 
 This repo consists of three notebooks:
-- [notebook](https://github.com/mljar/automl-app/blob/main/train-automl.ipynb) for training AutoML with simple UI,
 - [advanced notebook](https://github.com/mljar/automl-app/blob/main/train-automl-advanced.ipynb) for training AutoML with more advanced UI (you can select feature engineering methods, algorithms, validation strategy, and evaluation metric),
 - [notebook](https://github.com/mljar/automl-app/blob/main/automl-predict.ipynb) for computing predictions.
 
