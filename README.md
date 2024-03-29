@@ -1,6 +1,18 @@
 # CertainPrep: Showcasing Minimal Imputations in ML Data Preparation
 
 ![CertainPrep.png](media%2FCertainPrep.png)
+The data-view (A)
+provides data import and automatically populates possible features
+and targets. Users can also manually modify input features and
+the target label. The data-exploration view (B) presents a sample
+of the dataset and summary visualizations. After performing an
+exploratory analysis of the data, the user may define the ML model
+training configuration. Model-configuration panel (C) allows users
+to select the ML model to train, specify if they also want to evaluate
+ACM, provide ACM threshold, and set a verbose output returning a dirty sample that needs attention. Additionally, the analyst
+can provide a custom cleaning function (D) that CertainPrep can
+incorporate into the data preparation pipeline when CMs do not
+exist. After the analyst initiates training, the result view (E) 
 
 ## Description
 Real-world data often contains missing values, outliers, and inconsistency. To train accurate models over real-world datasets, users
