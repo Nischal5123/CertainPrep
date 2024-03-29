@@ -1,6 +1,6 @@
 # CertainPrep: Showcasing Minimal Imputations in ML Data Preparation
 
-[CertainPrep.pdf](media%2FCertainPrep.pdf)
+![CertainPrep.png](media%2FCertainPrep.png)
 
 ## Description
 Real-world data often contains missing values, outliers, and inconsistency. To train accurate models over real-world datasets, users
