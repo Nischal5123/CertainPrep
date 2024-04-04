@@ -29,6 +29,7 @@ exist. After the analyst initiates training, the result view (E)
 
 
 # Run Configuration
+- make sure required packages are installed in requirement.txt. Specially: pip install notebook , pip install mercury
 - mercury add {path to notebook} eg: `mercury add certain-prep-training-view.ipynb`
 - mercury run
 - Web app opens in http://127.0.0.1:8000
