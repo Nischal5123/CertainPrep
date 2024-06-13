@@ -33,3 +33,25 @@ exist. After the analyst initiates training, the result view (E)
 - mercury add {path to notebook} eg: `mercury add certain-prep-training-view.ipynb`
 - mercury run
 - Web app opens in http://127.0.0.1:8000
+
+
+## Citation
+```
+@article{10.1145/3654929,
+author = {Zhen, Cheng and Aryal, Nischal and Termehchy, Arash and Chabada, Amandeep Singh},
+title = {Certain and Approximately Certain Models for Statistical Learning},
+year = {2024},
+issue_date = {June 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {3},
+url = {https://doi.org/10.1145/3654929},
+doi = {10.1145/3654929},
+journal = {Proc. ACM Manag. Data},
+month = {may},
+articleno = {126},
+numpages = {25},
+keywords = {data preparation, data quality, uncertainty quantification}
+}
+```
