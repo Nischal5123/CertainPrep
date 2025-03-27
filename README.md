@@ -16,7 +16,7 @@ them. Our demonstration emphasizes the time and manual effort
 savings from avoiding data imputation while delivering accurate
 machine learning models.
 
-![Screenshot 2025-03-27 at 12.12.58 PM.png](..%2FScreenshot%202025-03-27%20at%2012.12.58%E2%80%AFPM.png)
+![MinPrep.png](media%2FMinPrep.png)
 The data-view (A)
 provides data import and automatically populates possible features
 and targets. Users can also manually modify input features and
